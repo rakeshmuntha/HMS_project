@@ -1,0 +1,77 @@
+/*nav bar*/
+.topnav {
+    background-color: #060505;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  .topnav a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover,.dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: rgb(212, 19, 19);
+  }
+  /*dropdown of bookings*/
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+  }
+  .dropdown-content a {
+    float: none;
+    color: white;
+    display: block;
+  }
+  /*table*/
+  table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  th {
+    background-color: black;
+    color: white;
+    height:50px;
+  }
+  td{
+    background-color: #ddd;
+    text-align: center;
+    height:30px;
+  }
+  td:hover{
+    background-color: grey;
+  }
+  .tdbutton2{
+    background-color: green;
+    color:White;
+  }
+  .tdbutton2:hover{
+    background-color: red;
+  }
+  .tdbutton1{
+    color: red;
+  }
+  /*Add room*/
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}

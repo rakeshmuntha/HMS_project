@@ -1,0 +1,164 @@
+.topnav {
+    background-color: #060505;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover,.dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: rgb(212, 19, 19);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+  }
+  .dropdown-content a {
+    float: none;
+    color: white;
+    display: block;
+  }
+  .genset{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: whitesmoke;
+    width:1360px;
+    height:240px;
+    margin-left: 15px;
+  }
+  .shutset{
+    border-radius: 20px;
+    padding: 5px;
+    background-color: whitesmoke;
+    width:1360px;
+    height:140px;
+    margin-left: 15px;
+    margin-top: 27px;
+  }
+  .conset{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: whitesmoke;
+    width:1360px;
+    height:770px;
+    margin-left: 15px;
+    margin-top: 27px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .con{
+    display: flex;
+  }
+  .p2{
+    margin-left: 500px;
+    margin-top: 60px;
+  }
+  .black-button{
+    background-color: black;
+      color: white;
+      border-radius: 6px;
+      width: 70px;
+      height: 40px;
+      margin-top: 25px;
+  }
+  .cont{
+    position: relative;
+  }
+  .inline-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 15px;
+    
+  }
+  .sheet-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width:250px;
+    height:300px;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 999;
+  }
+
+  #closeSheetBtn {
+    float: right;
+    cursor: pointer;
+  }
+  #closeSheetBtn3 {
+    float: right;
+    cursor: pointer;
+  }
+  .sheet-container3 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width:400px;
+    height:500px;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 999;
+  }
+  .on {
+    background-color: green;
+    color: white;
+  }
+
+  .off {
+    background-color: red;
+    color: white;
+  }
+  .sheet-container2 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width:250px;
+    height:170px;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 999;
+  }
+  #closeSheetBtn2 {
+    float: right;
+    cursor: pointer;
+  }
